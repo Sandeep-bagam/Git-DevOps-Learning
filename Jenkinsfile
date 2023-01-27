@@ -13,8 +13,7 @@ node {
          * docker build on the command line */
 
        /* app = docker.build("edureka1/edureka")
-	  app = docker.build("sandeepbagam/node")*/
-	 checkout scm
+	  app = docker.build("sandeepbagam/node")
     } 
 
     stage('Test image') {
